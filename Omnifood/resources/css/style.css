@@ -224,7 +224,10 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+    display: block;
 }
+
+
 
 .main-nav li {
     display: inline-block;
@@ -256,7 +259,9 @@ header {
     display: none;
 }
 
-.mobile-nav-icon ion-icon {
+
+
+.mobile-nav-icon {
     font-size: 200%;
     color: #fff;
 }
@@ -265,15 +270,15 @@ header {
 
 .sticky {
     position: fixed;
-    z-index: 10;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #fff;
     box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
 }
 
-.main-nav { margin-top: 18px; }
+.sticky .main-nav { margin-top: 18px; }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
@@ -634,6 +639,14 @@ footer p {
 .js--wp-2.animated,
 .js--wp-3.animated {
     opacity: 1;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }
 
 

@@ -18,6 +18,7 @@
         width: 80%;
         margin-left: 10%;
     }
+    .main-nav {display: block}
 
     .steps-box { margin-top: 10px; }
     .steps-box:last-child{ margin-top: 10px; }
@@ -56,6 +57,10 @@
     .main-nav { display: none; }
 
     .mobile-nav-icon {display: inline-block;}
+
+    .ion-navicon-close {
+        display: block;
+    }
 
     .main-nav {
         float: left;
